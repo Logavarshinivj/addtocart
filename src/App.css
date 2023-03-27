@@ -1,0 +1,43 @@
+/* .Container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    justify-items: center;
+    margin-bottom: 10px;
+} */
+.item-img{
+    height: 250px;
+    width: 250px;
+    object-fit:contain;
+    margin-top:10px;
+}
+.Container{
+   
+    gap:30px; 
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr))
+
+}
+.content{
+    margin-left: 10px;
+   
+}
+.contained{
+ margin-bottom: 30px;
+}
+
+.btn,.add{
+    align-items: center;
+    margin:60px;
+}
+.cart{
+    display: flex;
+    justify-content:space-between;
+    margin-left:10px;
+    margin-right: 30px;
+    margin-top:30px;
+}
+
+.cart-btn{
+    width:100%;
+}
